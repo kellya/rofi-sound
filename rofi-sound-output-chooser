@@ -2,13 +2,6 @@
 # Outputs have spaces in them, so let's make \n the IFS
 IFS=$'\n'
 
-# Menu will have a quit option, though you could just escape
-if [ "$*" = "quit" ]
-then
-    exit 0
-fi
-
-
 # An option was passed, so let's check it
 if [ "$@" ]
 then
@@ -34,5 +27,4 @@ else
         # outputs with cut may have spaces, so use empty xargs to remove them, and output that to the rofi list
         echo "$x"|xargs
     done
-    echo "quit"
 fi
