@@ -5,9 +5,7 @@ I wanted a way to quickly switch between my bluetooth headset, and my on-board
 speakers.  After a little bit of poking around (and getting some inspiration
 from [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth), I came up
 with this.  I have not done any extensive testing.  I don't know if this even
-works anywhere other than my computer.  I also don't know long-term if I am even
-sticking with I3.  I simply built this to scratch a curiosity itch with I3 and
-pactl.
+works anywhere other than my computer.
 
 ![demo](images/sound_change.gif)
 
